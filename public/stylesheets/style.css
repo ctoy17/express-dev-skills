@@ -13,3 +13,15 @@ nav{
 button{
   margin-top: 30px;
 }
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+}
+	
+li {
+  list-style: none;
+}
