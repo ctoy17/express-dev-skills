@@ -30,5 +30,5 @@ function deleteOne(id){
 }
 function updateOne(getOne){
     getOne;
-    skills.push(skills, $);
+    skills.push(items, update);
 }

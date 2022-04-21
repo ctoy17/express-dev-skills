@@ -32,6 +32,8 @@ function deleteSkill (req, res){
     res.redirect('/skills');
 }
 function update (req, res){
-    Skill.updateOne(req.params.id)
-    res.redirect('/skills');
+    res.redirect('/skills/<%= skill.id %>/update');
+    res.render('skills/show',{
+    skill: Skill.updateOne(req.params.id),
+    });
 }
